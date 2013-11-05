@@ -5,7 +5,7 @@
 Summary:	Terminal-emulator State Machine
 Name:		libtsm
 Version:	3
-Release:	1
+Release:	2
 Group:		System/Libraries
 License:	MIT
 Url:		http://www.freedesktop.org/wiki/Software/kmscon/$pkgname
@@ -20,6 +20,7 @@ to existing emulators like xterm, gnome-terminal, konsole.
 %package -n %{libname}
 Summary:	Terminal-emulator State Machine
 Group:		System/Libraries
+Obsoletes:	%{mklibname tsm 1} < 3
 
 %description -n %{libname}
 TSM is a state machine for DEC VT100-VT520 compatible terminal emulators.
