@@ -5,10 +5,10 @@
 Summary:	Terminal-emulator State Machine
 Name:		libtsm
 Version:	3
-Release:	2
+Release:	3
 Group:		System/Libraries
 License:	MIT
-Url:		http://www.freedesktop.org/wiki/Software/kmscon/$pkgname
+Url:		http://www.freedesktop.org/wiki/Software/kmscon
 Source0:	http://www.freedesktop.org/software/kmscon/releases/%{name}-%{version}.tar.xz
 BuildRequires:	pkgconfig(xkbcommon)
 
