@@ -5,7 +5,7 @@
 Summary:	Terminal-emulator State Machine
 Name:		libtsm
 Version:	3
-Release:	4
+Release:	5
 Group:		System/Libraries
 License:	MIT
 Url:		http://www.freedesktop.org/wiki/Software/kmscon
