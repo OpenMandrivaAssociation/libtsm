@@ -20,7 +20,7 @@ to existing emulators like xterm, gnome-terminal, konsole.
 %package -n %{libname}
 Summary:	Terminal-emulator State Machine
 Group:		System/Libraries
-Obsoletes:	%{mklibname tsm 1} < 3
+Obsoletes:	%{mklibname tsm 1}
 
 %description -n %{libname}
 TSM is a state machine for DEC VT100-VT520 compatible terminal emulators.
