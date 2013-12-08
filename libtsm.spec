@@ -30,6 +30,7 @@ to existing emulators like xterm, gnome-terminal, konsole.
 %package -n %{develname}
 Summary:	Headers and development files for %{name}
 Group:		Development/C
+Requires:	%{libname} = %{EVRD}
 
 %description -n %{develname}
 Headers and development files for %{name}.
