@@ -5,7 +5,7 @@
 Summary:	Terminal-emulator State Machine
 Name:		libtsm
 Version:	3
-Release:	9
+Release:	10
 Epoch:		1
 Group:		System/Libraries
 License:	MIT
