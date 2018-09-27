@@ -5,7 +5,7 @@
 Summary:	Terminal-emulator State Machine
 Name:		libtsm
 Version:	3
-Release:	13
+Release:	14
 Epoch:		1
 Group:		System/Libraries
 License:	MIT
@@ -38,16 +38,16 @@ Obsoletes:	%{mklibname tsm -d} = 7-2
 Headers and development files for %{name}.
 
 %prep
-%setup -q
+%autosetup -p1
 
 %build
-%configure2_5x \
+%configure \
 		--disable-static
 
-%make
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %files -n %{libname}
 %{_libdir}/libtsm.so.%{major}*
