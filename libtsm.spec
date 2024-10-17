@@ -9,7 +9,7 @@ Release:	16
 Epoch:		1
 Group:		System/Libraries
 License:	MIT
-Url:		http://www.freedesktop.org/wiki/Software/kmscon
+Url:		https://www.freedesktop.org/wiki/Software/kmscon
 Source0:	http://www.freedesktop.org/software/kmscon/releases/%{name}-%{version}.tar.xz
 BuildRequires:	pkgconfig(xkbcommon)
 
