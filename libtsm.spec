@@ -11,6 +11,11 @@ Group:		System/Libraries
 License:	MIT
 Url:		https://www.freedesktop.org/wiki/Software/kmscon
 Source0:	http://www.freedesktop.org/software/kmscon/releases/%{name}-%{version}.tar.xz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(xkbcommon)
 
 %description
